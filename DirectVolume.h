@@ -21,13 +21,13 @@
 
 #include "Volume.h"
 
-#define MAX_PARTS 16
+#define MAX_PARTS 20
 
 typedef android::List<char *> PathCollection;
 
 class DirectVolume : public Volume {
 public:
-    static const int MAX_PARTITIONS = 16;
+    static const int MAX_PARTITIONS = 20;
 protected:
     PathCollection *mPaths;
     int            mDiskMajor;
